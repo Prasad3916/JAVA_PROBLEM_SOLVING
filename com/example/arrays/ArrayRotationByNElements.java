@@ -1,4 +1,4 @@
-package com.example.arrays;
+ package com.example.arrays;
 import java.util.Arrays;
 public class ArrayRotationByNElements {
 	void arrayRotationByNElements(int arr[],int n) {

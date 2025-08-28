@@ -21,6 +21,21 @@ public class SecondLargestAndSecongSmallest {
 				secmin=arr[j+1];
 			}
 		}
+		
+		
+//		int min=arr[0];
+//		int max=arr[0];
+//		int secmax=arr[0];
+//		for(int i=0;i<arr.length;i++) {
+//			if(max<=arr[i]) {
+//				secmax=max;
+//				max=arr[i];
+//			}
+//			else if(secmax<max && arr[i]!=max) {
+//				min=arr[i+1];
+//				secmax=arr[i];
+//			}
+//		}
 		System.out.println("Minimum Number "+min);
 		System.out.println("Maximum Number "+max);
 		System.out.println("Second Minimum Number "+secmin);

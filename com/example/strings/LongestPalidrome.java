@@ -3,7 +3,7 @@ import java.util.ArrayList;
 public class LongestPalidrome {
 	static void longestPalidrome() {
 		ArrayList<String> arrayList = new ArrayList<>();
-		StringBuilder s=new StringBuilder("babad");
+		StringBuilder s=new StringBuilder("baygjhhbad");
 		for (int i = 0; i < s.length(); i++) {
 			for(int j=i+1;j<s.length();j++) {
 				if(s.charAt(i)==s.charAt(j)) {

@@ -1,7 +1,6 @@
 package com.example.arrays;
 import java.util.Scanner;
 class Main {
-    @SuppressWarnings("resource")
 	public static void main(String[] args) {
         System.out.println("----------------");
         Scanner sc=new Scanner(System.in);
